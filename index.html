@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html ng-app="rmcf">
+<head>
+	<title>REYES DE EUROPA</title>
+	<meta charset="utf-8">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+<link rel="stylesheet" type="text/css" href="./stylesheets/style.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js" type="text/javascript"></script>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="./scripts/app.js" type="text/javascript"></script>
+
+</head>
+<body ng-controller="alineacion">
+			<div >
+						<h1>{{title}}</h1>
+						  <select name="show-filter" ng-model="finalFilter" >
+						    <option value="{{primera}}">Primera copa</option>
+						    <option value="{{segunda}}">Segunda copa</option>
+						    <option value="{{tercera}}">Tercera copa</option>
+						  </select>
+						  		<p>{{finalFilter}}</p>
+						  
+						    <h3>{{biba+" BIBA"}}</h3>
+						    
+						    
+						  
+			</div>
+	<input ng-model="name">
+	<p>{{name}}</p>
+	<p ng-controller="prueba">{{prueba}}</p>
+	<div class="row">
+		<table class="col-md-6 equipo1 rmcf">
+			<tbody>	
+				<tr>
+					<td>{{partido[0][1].del4}}</td><td>{{partido[0][1].del2}}</td><td>{{partido[0][1].dc}}</td><td>{{partido[0][1].del1}}</td><td>{{partido[0][1].del5}}</td>
+				</tr>
+				<tr>
+					<td>{{partido[0][1].ei}}</td><td>{{partido[0][1].sd2}}</td><td>{{partido[0][1].mp}}</td><td>{{partido[0][1].sd1}}</td><td>{{partido[0][1].ed}}</td>
+				</tr>
+				<tr>
+					<td>{{partido[0][1].ini}}</td><td>{{partido[0][1].mc2}}</td><td>{{partido[0][1].mcd}}</td><td>{{partido[0][1].mc1}}</td><td>{{partido[0][1].ind}}</td>
+				</tr>
+				<tr>
+					<td>{{partido[0][1].li}}</td><td>{{partido[0][1].ci}}</td><td>{{partido[0][1].lib}}</td><td>{{partido[0][1].cd}}</td><td>{{partido[0][1].ld}}</td>
+				</tr>
+				<tr>
+					<td></td><td></td><td class="portero">{{partido[0][1].por}}</td><td></td><td></td>
+				</tr>
+			</tbody>
+		</table>
+	
+		<table class="col-md-6 equipo2 rmcf">
+			<tbody>	
+				<tr>
+					<td>{{partido[0][2].del4}}</td><td>{{partido[0][2].del2}}</td><td>{{partido[0][2].dc}}</td><td>{{partido[0][2].del1}}</td><td>{{partido[0][2].del5}}</td>
+				</tr>
+				<tr>
+					<td>{{partido[0][2].ei}}</td><td>{{partido[0][2].sd2}}</td><td>{{partido[0][2].mp}}</td><td>{{partido[0][2].sd1}}</td><td>{{partido[0][2].ed}}</td>
+				</tr>
+				<tr>
+					<td>{{partido[0][2].ini}}</td><td>{{partido[0][2].mc2}}</td><td>{{partido[0][2].mcd}}</td><td>{{partido[0][2].mc1}}</td><td>{{partido[0][2].ind}}</td>
+				</tr>
+				<tr>
+					<td>{{partido[0][2].li}}</td><td>{{partido[0][2].ci}}</td><td>{{partido[0][2].lib}}</td><td>{{partido[0][2].cd}}</td><td>{{partido[0][2].ld}}</td>
+				</tr>
+				<tr>
+					<td></td><td></td><td class="portero">{{partido[0][2].por}}</td><td></td><td></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</body>
+</html>
