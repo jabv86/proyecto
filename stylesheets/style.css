@@ -1,0 +1,22 @@
+body {
+  text-align: center; }
+
+.equipo1, .equipo2 {
+  width: 280px;
+  height: 1107px;
+  background: url("./../images/campo.jpg") no-repeat;
+  background-size: 100%;
+  font-size: 20px; }
+
+.rmcf {
+  text-align: center;
+  color: rmcfColor;
+  font-weight: bold; }
+
+.ancho {
+  width: 20%; }
+
+.campos {
+  text-align: center; }
+
+/*# sourceMappingURL=style.css.map */
