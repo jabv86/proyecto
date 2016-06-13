@@ -20,61 +20,17 @@
 <body ng-controller="alineacion">
 			<div >
 						<h1>{{title}}</h1>
-						  <select name="show-filter" ng-model="finalFilter" >
-						    <option value="{{primera}}">Primera copa</option>
-						    <option value="{{segunda}}">Segunda copa</option>
-						    <option value="{{tercera}}">Tercera copa</option>
+						  <select name="show-filter" ng-model="finalFilter" size="1" ng-options="final.copa for final in finales">
+						  	<option ng-repeat="final in finales">{{final.copa}}</option>
 						  </select>
-						  		<p>{{finalFilter}}</p>
 						  
-						    <h3>{{biba+" BIBA"}}</h3>
-						    
-						    
-						  
+						  		<p>{{finalFilter.datos.arbitro}}</p>					  
 			</div>
-	<input ng-model="name">
-	<p>{{name}}</p>
-	<p ng-controller="prueba">{{prueba}}</p>
 	<div class="row">
-		<table class="col-md-6 equipo1 rmcf">
-			<tbody>	
-				<tr>
-					<td>{{partido[0][1].del4}}</td><td>{{partido[0][1].del2}}</td><td>{{partido[0][1].dc}}</td><td>{{partido[0][1].del1}}</td><td>{{partido[0][1].del5}}</td>
-				</tr>
-				<tr>
-					<td>{{partido[0][1].ei}}</td><td>{{partido[0][1].sd2}}</td><td>{{partido[0][1].mp}}</td><td>{{partido[0][1].sd1}}</td><td>{{partido[0][1].ed}}</td>
-				</tr>
-				<tr>
-					<td>{{partido[0][1].ini}}</td><td>{{partido[0][1].mc2}}</td><td>{{partido[0][1].mcd}}</td><td>{{partido[0][1].mc1}}</td><td>{{partido[0][1].ind}}</td>
-				</tr>
-				<tr>
-					<td>{{partido[0][1].li}}</td><td>{{partido[0][1].ci}}</td><td>{{partido[0][1].lib}}</td><td>{{partido[0][1].cd}}</td><td>{{partido[0][1].ld}}</td>
-				</tr>
-				<tr>
-					<td></td><td></td><td class="portero">{{partido[0][1].por}}</td><td></td><td></td>
-				</tr>
-			</tbody>
-		</table>
+		<alineacion1></alineacion1>
+		<alineacion2></alineacion2>
 	
-		<table class="col-md-6 equipo2 rmcf">
-			<tbody>	
-				<tr>
-					<td>{{partido[0][2].del4}}</td><td>{{partido[0][2].del2}}</td><td>{{partido[0][2].dc}}</td><td>{{partido[0][2].del1}}</td><td>{{partido[0][2].del5}}</td>
-				</tr>
-				<tr>
-					<td>{{partido[0][2].ei}}</td><td>{{partido[0][2].sd2}}</td><td>{{partido[0][2].mp}}</td><td>{{partido[0][2].sd1}}</td><td>{{partido[0][2].ed}}</td>
-				</tr>
-				<tr>
-					<td>{{partido[0][2].ini}}</td><td>{{partido[0][2].mc2}}</td><td>{{partido[0][2].mcd}}</td><td>{{partido[0][2].mc1}}</td><td>{{partido[0][2].ind}}</td>
-				</tr>
-				<tr>
-					<td>{{partido[0][2].li}}</td><td>{{partido[0][2].ci}}</td><td>{{partido[0][2].lib}}</td><td>{{partido[0][2].cd}}</td><td>{{partido[0][2].ld}}</td>
-				</tr>
-				<tr>
-					<td></td><td></td><td class="portero">{{partido[0][2].por}}</td><td></td><td></td>
-				</tr>
-			</tbody>
-		</table>
+		
 	</div>
 </body>
 </html>
