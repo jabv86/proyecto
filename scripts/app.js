@@ -1,33 +1,44 @@
-function prueba($scope){
-	$scope.prueba="OK";
-};
-
 function alineacion ($scope,$http){
 	var ENDPOINT = "./data/partido.json";
 	$http.get(ENDPOINT).then(function(res){
-		$scope.partido=res.data;
-		console.log($scope.partido);
+		$scope.finales=res.data;
+		console.log($scope.finales);
 		
-		var partido = $scope.partido;
-		console.log(partido[0][0]);
+		var finales = $scope.finales;
+		console.log(finales[0].copa);
 		$scope.title = "Selecciona la final";
-   $scope.primera=partido[0][0];
-   $scope.segunda=partido[1][0];
-   $scope.tercera=partido[2][0];
-    $scope.biba="biba llo";
+   $scope.primera=finales[0].copa;
+   $scope.segunda=finales[1].copa;
+   $scope.tercera=finales[2].copa;
+   		
+
+   	$scope.equipos=finales.forEach(function(copa){
+   		console.log(copa.equipos);
+   	});
+   
+    
 	});
 };
 
-function main($scope) {
-  
+function alineacion1(){
+	return{
+		restrict:"E",
+		templateUrl:"./templates/alineacion1.html"
+	}
 };
 
+function alineacion2(){
+	return{
+		restrict:"E",
+		templateUrl:"./templates/alineacion2.html"
+	}
+};
 
 (function(){
 
 var app = angular.module('rmcf',[]);
-app.controller('prueba',prueba);
 app.controller('alineacion', alineacion);
-app.controller('Main', ['$scope', main]);
+app.directive('alineacion1',alineacion1);
+app.directive('alineacion2',alineacion2);
 
 })();
