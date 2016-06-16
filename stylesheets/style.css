@@ -1,20 +1,73 @@
 body {
-  text-align: center; }
+  text-align: center;
+  background: url("./../images/trono.jpg") no-repeat fixed;
+  background-size: 100%;
+  width: 100%;
+  height: 100%;
+  font-weight: bold; }
+
+.biba, .caja {
+  color: #fff;
+  background-color: #47008f;
+  margin: 1% 38%; }
+
+.marcadoRMCF {
+  color: #47008f;
+  background-color: #fff;
+  margin: 0% 44%;
+  padding: 2%; }
+
+.marcadounter {
+  color: #700000;
+  background-color: #fff;
+  margin: 0% 44%;
+  padding: 2%; }
+
+.nmcf {
+  color: #fff;
+  background-color: #47008f;
+  margin: 4% -4%; }
+
+.ncounter {
+  color: #fff;
+  background-color: #700000;
+  margin: 4% -4%; }
 
 .equipo1, .equipo2 {
   width: 280px;
-  height: 1107px;
+  height: 746px;
   background: url("./../images/campo.jpg") no-repeat;
   background-size: 100%;
   font-size: 20px; }
 
-.rmcf {
+#rmcf {
   text-align: center;
-  color: rmcfColor;
+  color: #47008f;
   font-weight: bold; }
+
+#counter {
+  color: #700000;
+  font-weight: bold; }
+
+.entrenadorMCF {
+  color: #fff;
+  background-color: #47008f; }
+
+.entrenadorC {
+  color: #fff;
+  background-color: #700000; }
+
+.maxgol {
+  color: #fff;
+  -webkit-border-radius: 200px 200px 200px 200px !important;
+  z-index: 1 !important;
+  background-color: #827864; }
 
 .ancho {
   width: 20%; }
+
+.alto {
+  height: 10%; }
 
 .campos {
   text-align: center; }
