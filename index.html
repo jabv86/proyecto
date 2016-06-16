@@ -18,19 +18,50 @@
 
 </head>
 <body ng-controller="alineacion">
-			<div >
-						<h1>{{title}}</h1>
+			<div class="datos">
+						<h1 class="biba">{{title}}</h1>
 						  <select name="show-filter" ng-model="finalFilter" size="1" ng-options="final.copa for final in finales">
+						  	<option value="">---Elige final---</option>
 						  	<option ng-repeat="final in finales">{{final.copa}}</option>
-						  </select>
-						  
-						  		<p>{{finalFilter.datos.arbitro}}</p>					  
+						  </select></br></br>
+						  	<div>
+						  		<h3 class="caja">{{finalFilter.copa}}</h3>
+						  		<img id="imgn" src="{{finalFilter.imagen}}">
+						  		<p class="caja">{{finalFilter.datos.fecha}}</p>
+						  		<p class="caja">{{finalFilter.datos.estadio}}{{finalFilter.datos.capacidad}}</p>
+						  		<p></p>					  
+						  	</div>
+			</div>
+			<div class="row marcador">
+				<div class="col-md-4 col-md-offset-1">
+					<h1 class="marcadoRMCF">{{finalFilter.equipos[0].goles}}</h1>
+					<h2 class="nmcf">{{finalFilter.equipos[0].equipo}}</h2>
+				</div>
+				<div class="col-md-4 col-md-offset-2">
+					<h1 class="marcadounter">{{finalFilter.equipos[1].goles}}</h1>
+					<h2 class="ncounter">{{finalFilter.equipos[1].equipo}}</h2>
+				</div>
 			</div>
 	<div class="row">
 		<alineacion1></alineacion1>
-		<alineacion2></alineacion2>
-	
-		
+		<alineacion2></alineacion2>	
+	</div>
+	<div class="row">
+		<div class="col-md-4 col-md-offset-1 entrenadorMCF">
+			<p>{{finalFilter.entrena}}{{finalFilter.equipos[0].entrenador}}</p>
+			<p>{{finalFilter.capi}}{{finalFilter.equipos[0].capitan}}</p>
+		</div>
+		<div class="col-md-2 maxgol">
+			<p>{{finalFilter.datos.maxgoleador.nombre}}<p>
+				<ul class="list-unstyled">
+					<li>{{finalFilter.datos.maxgoleador.equipo}}</li>
+					<li>{{finalFilter.datos.maxgoleador.goles}}</li>
+				</ul>
+		</div>
+		<div class="col-md-4 entrenadorC">
+			<p>{{finalFilter.entrena}}{{finalFilter.equipos[1].entrenador}}</p>
+			<p>{{finalFilter.capi}}{{finalFilter.equipos[1].capitan}}</p>
+		</div>
 	</div>
 </body>
 </html>
