@@ -1,6 +1,9 @@
 [
 	{
 		"copa": "Primera",
+		"imagen":"./images/finales/primera.jpg",
+		"entrena":"Entrenador: ",
+		"capi":"Capitán: ",
 		"equipos": [{
 			"equipo":"Real Madrid C. de F.",
 			"goles":"4",
@@ -57,7 +60,7 @@
 		}],
 		"datos":{
 			"estadio":"Parc des Princes",
-			"capacidad":"40.000 espectadores",
+			"capacidad":", 40.000 espectadores",
 			"fecha":"13 de junio de 1956",
 			"participantes":"16",
 			"partidos":"29",
@@ -74,6 +77,9 @@
 	},
 	{
 		"copa": "Segunda",
+		"imagen":"./images/finales/segunda.jpg",
+		"entrena":"Entrenador: ",
+		"capi":"Capitán: ",
 		"equipos": [{
 			"equipo":"Real Madrid C. de F.",
 			"goles":"2",
@@ -130,7 +136,7 @@
 		}],
 		"datos":{
 			"estadio":"Santiago Bernabéu",
-			"capacidad":"120.000 espectadores",
+			"capacidad":", 120.000 espectadores",
 			"fecha":"30 de mayo de 1957",
 			"participantes":"16",
 			"partidos":"44",
@@ -147,6 +153,9 @@
 	},
 	{
 		"copa": "Tercera",
+		"imagen":"./images/finales/tercera.jpg",
+		"entrena":"Entrenador: ",
+		"capi":"Capitán: ",
 		"equipos": [{
 			"equipo":"Real Madrid C. de F.",
 			"goles":"3",
@@ -180,7 +189,7 @@
 			"por":"Soldan",
 			"ld":"",
 			"cd":"Fontana",
-			"lib":"Cesare Maldini",
+			"lib":"Maldini",
 			"ci":"Beraldo",
 			"li":"",
 			"mcd":"",
@@ -195,15 +204,15 @@
 			"ei":"",
 			"dc":"Danova",
 			"del5":"Liedholm",
-			"del1":"Schiaffino",
+			"del1":"Schiaffi",
 			"del2":"Grillo",
-			"del4":"Cucchiarioni",
+			"del4":"Cucchia",
 			"entrenador":"Gipo Viani",
 			"capitan":"Nils Liedholm"
 		}],
 		"datos":{
 			"estadio":"Heysel",
-			"capacidad":"50.000 espectadores",
+			"capacidad":", 50.000 espectadores",
 			"fecha":"28 de mayo de 1958",
 			"participantes":"24",
 			"partidos":"48",
@@ -220,6 +229,9 @@
 	},
 	{
 		"copa": "Cuarta",
+		"imagen":"./images/finales/cuarta.jpg",
+		"entrena":"Entrenador: ",
+		"capi":"Capitán: ",
 		"equipos": [{
 			"equipo":"Real Madrid C. de F.",
 			"goles":"2",
@@ -276,7 +288,7 @@
 		}],
 		"datos":{
 			"estadio":"Neckarstadion",
-			"capacidad":"70.000 espectadores",
+			"capacidad":", 70.000 espectadores",
 			"fecha":"3 de junio de 1959",
 			"participantes":"26",
 			"partidos":"55",
@@ -293,6 +305,9 @@
 	},
 	{
 		"copa": "Quinta",
+		"entrena":"Entrenador: ",
+		"capi":"Capitán: ",
+		"imagen":"./images/finales/quinta.jpg",
 		"equipos": [{
 			"equipo":"Real Madrid C. de F.",
 			"goles":"7",
@@ -349,7 +364,7 @@
 		}],
 		"datos":{
 			"estadio":"Hampden Park",
-			"capacidad":"127.261 espectadores",
+			"capacidad":", 127.261 espectadores",
 			"fecha":"18 de mayo de 1960",
 			"participantes":"27",
 			"partidos":"52",
@@ -366,6 +381,9 @@
 	},
 	{
 		"copa": "Sexta",
+		"imagen":"./images/finales/sexta.jpg",
+		"entrena":"Entrenador: ",
+		"capi":"Capitán: ",
 		"equipos": [{
 			"equipo":"Real Madrid C. de F.",
 			"goles":"2",
@@ -422,7 +440,7 @@
 		}],
 		"datos":{
 			"estadio":"Heysel",
-			"capacidad":"55.000 espectadores",
+			"capacidad":", 55.000 espectadores",
 			"fecha":"11 de mayo de 1966",
 			"participantes":"32",
 			"partidos":"58",
@@ -440,6 +458,9 @@
 
 			{
 		"copa": "Séptima",
+		"imagen":"./images/finales/septima.jpg",
+		"entrena":"Entrenador: ",
+		"capi":"Capitán: ",
 		"equipos": [{
 			"equipo":"Real Madrid C. de F.",
 			"goles":"1",
@@ -496,7 +517,7 @@
 		}],
 		"datos":{
 			"estadio":"Amsterdam arena",
-			"capacidad":"51.715 espectadores",
+			"capacidad":", 51.715 espectadores",
 			"fecha":"20 de mayo de 1998",
 			"participantes":"24",
 			"partidos":"85",
@@ -513,6 +534,9 @@
 	},
 		{
 		"copa": "Octava",
+		"imagen":"./images/finales/octava.jpg",
+		"entrena":"Entrenador: ",
+		"capi":"Capitán: ",
 		"equipos": [{
 			"equipo":"Real Madrid C. de F.",
 			"goles":"3",
@@ -569,7 +593,7 @@
 		}],
 		"datos":{
 			"estadio":"Stade de france",
-			"capacidad":"78.759 espectadores",
+			"capacidad":", 78.759 espectadores",
 			"fecha":"24 de mayo de 2000",
 			"participantes":"32",
 			"partidos":"157",
@@ -586,6 +610,9 @@
 	},
 			{
 		"copa": "Novena",
+		"imagen":"./images/finales/novena.jpg",
+		"entrena":"Entrenador: ",
+		"capi":"Capitán: ",
 		"equipos": [{
 			"equipo":"Real Madrid C. de F.",
 			"goles":"2",
@@ -642,7 +669,7 @@
 		}],
 		"datos":{
 			"estadio":"Hampden Park",
-			"capacidad":"52.000 espectadores",
+			"capacidad":", 52.000 espectadores",
 			"fecha":"15 de mayo de 2002",
 			"participantes":"32",
 			"partidos":"157",
@@ -659,6 +686,9 @@
 	},
 	{
 		"copa": "Décima",
+		"imagen":"./images/finales/decima.jpg",
+		"entrena":"Entrenador: ",
+		"capi":"Capitán: ",
 		"equipos": [{
 			"equipo":"Real Madrid C. de F.",
 			"goles":"4",
@@ -715,7 +745,7 @@
 		}],
 		"datos":{
 			"estadio":"Estadio da Luz",
-			"capacidad":"60.976 espectadores",
+			"capacidad":", 60.976 espectadores",
 			"fecha":"24 de mayo de 2014",
 			"participantes":"32",
 			"partidos":"157",
@@ -732,6 +762,9 @@
 	},
 	{
 		"copa": "Undécima",
+		"imagen":"./images/finales/undecima.jpg",
+		"entrena":"Entrenador: ",
+		"capi":"Capitán: ",
 		"equipos": [{
 			"equipo":"Real Madrid C. de F.",
 			"goles":"1 (5)",
@@ -788,7 +821,7 @@
 		}],
 		"datos":{
 			"estadio":"San Siro",
-			"capacidad":"60.976 espectadores",
+			"capacidad":", 60.976 espectadores",
 			"fecha":"28 de mayo de 2016",
 			"participantes":"32",
 			"partidos":"124",
