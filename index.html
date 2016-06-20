@@ -15,88 +15,37 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 <script src="./scripts/app.js" type="text/javascript"></script>
+<script src="./scripts/directivas.js" type="text/javascript"></script>
 
 </head>
 <body ng-controller="alineacion">
 			<div class="datos">
 				<div class="row">
 
-						<h1 class="biba titulo col-md-4 col-md-offset-4">{{title}}</h1>
+						<title-D></title-D>
 				</div>		 
 						 <div class="row">
-								 <div class="col-md-2 col-md-offset-5">
-										  <select class="form-control" name="show-filter" ng-model="finalFilter" size="1" ng-options="final.copa for final in finales">
-										  	<option value="">---Elige final---</option>
-										  	<option ng-repeat="final in finales">{{final.copa}}</option>
-										  </select>
-								  	</div>
+								<select-i></select-i>
 						  	</div>
 						  	
 						  	<div>
-						  		<h3 class="caja">{{finalFilter.copa}}</h3>
-						  		<img src="{{finalFilter.imagen}}"></img>
-						  		<p class="caja">{{finalFilter.datos.fecha}}</p>
-						  		<p class="caja">{{finalFilter.datos.estadio}}{{finalFilter.datos.capacidad}}</p>
-						  		<p></p>					  
+								<info></info>				  
 						  	</div>
 			</div>
-			<div class="row marcador">
-				<div class="col-md-4 col-md-offset-1">
-					<h1 class="marcadoRMCF">{{finalFilter.equipos[0].goles}}</h1>
-					<h2 class="nmcf">{{finalFilter.equipos[0].equipo}}</h2>
-				</div>
-				<div class="col-md-2 arbitro">
-					<p>{{finalFilter.datos.arbi}}{{finalFilter.datos.arbitro}}</p>
-				</div>
-				<div class="col-md-4">
-					<h1 class="marcadounter">{{finalFilter.equipos[1].goles}}</h1>
-					<h2 class="ncounter">{{finalFilter.equipos[1].equipo}}</h2>
-				</div>
+			<div class="row" marcador>
+				
 			</div>
 	<div class="row">
 		<alineacion1></alineacion1>
 		<alineacion2></alineacion2>	
 	</div>
-	<div class="row">
-		<div class="col-md-4 col-md-offset-1 entrenadorMCF">
-			<p>{{finalFilter.entrena}}{{finalFilter.equipos[0].entrenador}}</p>
-			<p>{{finalFilter.capi}}{{finalFilter.equipos[0].capitan}}</p>
-		</div>
-		<div class="col-md-2 maxgol">
-			<p>{{finalFilter.datos.maxg}}<p>
-				<ul class="list-unstyled">
-					<li>{{finalFilter.datos.maxgoleador.nombre}}</li>
-					<li>{{finalFilter.datos.maxgoleador.equipo}}</li>
-					<li>{{finalFilter.datos.maxgoleador.goles}}</li>
-				</ul>
-		</div>
-		<div class="col-md-4 entrenadorC">
-			<p>{{finalFilter.entrena}}{{finalFilter.equipos[1].entrenador}}</p>
-			<p>{{finalFilter.capi}}{{finalFilter.equipos[1].capitan}}</p>
-		</div>
+	<div class="row" entrenmax>
+
 	</div>
 	<div class="row"></br></div>
-	<div class="row">
-		<div class="col-md-4 col-md-offset-4">
-			<table class="table table-bordered table-hover estadistica">
-				<tbody>
-					<tr><td colspan="2">{{finalFilter.datos.estadis}}</td></tr>
-					<tr>
-						<td>{{finalFilter.datos.participa}}</td>
-						<td>{{finalFilter.datos.participantes}}</td>
-					</tr>
-					<tr>
-						<td>{{finalFilter.datos.par}}</td>
-						<td>{{finalFilter.datos.partidos}}</td>
-					</tr>
-					<tr>
-						<td>{{finalFilter.datos.gol}}</td>
-						<td>{{finalFilter.datos.goles}}</td>
-					</tr>
-				</tbody>
-			</table>
-
-		</div>
+	<div class="row" estadisticas>
+		
 	</div>
+<!-- 	<audio src="./audio/himnormcf.mp3" autoplay loop></audio> -->
 </body>
 </html>
