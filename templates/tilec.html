@@ -1,0 +1,6 @@
+ <div class="col-md-2 col-md-offset-5">
+										  <select class="form-control" name="show-filter" ng-model="finalFilter" size="1" ng-options="final.copa for final in finales">
+										  	<option value="">---Elige final---</option>
+										  	<option ng-repeat="final in finales">{{final.copa}}</option>
+										  </select>
+</div>
