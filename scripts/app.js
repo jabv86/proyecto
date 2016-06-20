@@ -2,7 +2,7 @@ function alineacion ($scope,$http){
 	var ENDPOINT = "./data/partido.json";
 	$http.get(ENDPOINT).then(function(res){
 		$scope.finales=res.data;
-		$scope.title = "Selecciona la final";    
+		$scope.title = "Selecciona la final";  
 	});
 };
 
