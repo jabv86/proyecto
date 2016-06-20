@@ -19,14 +19,22 @@
 </head>
 <body ng-controller="alineacion">
 			<div class="datos">
-						<h1 class="biba">{{title}}</h1>
-						  <select name="show-filter" ng-model="finalFilter" size="1" ng-options="final.copa for final in finales">
-						  	<option value="">---Elige final---</option>
-						  	<option ng-repeat="final in finales">{{final.copa}}</option>
-						  </select></br></br>
+				<div class="row">
+
+						<h1 class="biba titulo col-md-4 col-md-offset-4">{{title}}</h1>
+				</div>		 
+						 <div class="row">
+								 <div class="col-md-2 col-md-offset-5">
+										  <select class="form-control" name="show-filter" ng-model="finalFilter" size="1" ng-options="final.copa for final in finales">
+										  	<option value="">---Elige final---</option>
+										  	<option ng-repeat="final in finales">{{final.copa}}</option>
+										  </select>
+								  	</div>
+						  	</div>
+						  	
 						  	<div>
 						  		<h3 class="caja">{{finalFilter.copa}}</h3>
-						  		<img id="imgn" src="{{finalFilter.imagen}}">
+						  		<img src="{{finalFilter.imagen}}"></img>
 						  		<p class="caja">{{finalFilter.datos.fecha}}</p>
 						  		<p class="caja">{{finalFilter.datos.estadio}}{{finalFilter.datos.capacidad}}</p>
 						  		<p></p>					  
@@ -37,7 +45,10 @@
 					<h1 class="marcadoRMCF">{{finalFilter.equipos[0].goles}}</h1>
 					<h2 class="nmcf">{{finalFilter.equipos[0].equipo}}</h2>
 				</div>
-				<div class="col-md-4 col-md-offset-2">
+				<div class="col-md-2 arbitro">
+					<p>{{finalFilter.datos.arbi}}{{finalFilter.datos.arbitro}}</p>
+				</div>
+				<div class="col-md-4">
 					<h1 class="marcadounter">{{finalFilter.equipos[1].goles}}</h1>
 					<h2 class="ncounter">{{finalFilter.equipos[1].equipo}}</h2>
 				</div>
@@ -52,8 +63,9 @@
 			<p>{{finalFilter.capi}}{{finalFilter.equipos[0].capitan}}</p>
 		</div>
 		<div class="col-md-2 maxgol">
-			<p>{{finalFilter.datos.maxgoleador.nombre}}<p>
+			<p>{{finalFilter.datos.maxg}}<p>
 				<ul class="list-unstyled">
+					<li>{{finalFilter.datos.maxgoleador.nombre}}</li>
 					<li>{{finalFilter.datos.maxgoleador.equipo}}</li>
 					<li>{{finalFilter.datos.maxgoleador.goles}}</li>
 				</ul>
@@ -61,6 +73,29 @@
 		<div class="col-md-4 entrenadorC">
 			<p>{{finalFilter.entrena}}{{finalFilter.equipos[1].entrenador}}</p>
 			<p>{{finalFilter.capi}}{{finalFilter.equipos[1].capitan}}</p>
+		</div>
+	</div>
+	<div class="row"></br></div>
+	<div class="row">
+		<div class="col-md-4 col-md-offset-4">
+			<table class="table table-bordered table-hover estadistica">
+				<tbody>
+					<tr><td colspan="2">{{finalFilter.datos.estadis}}</td></tr>
+					<tr>
+						<td>{{finalFilter.datos.participa}}</td>
+						<td>{{finalFilter.datos.participantes}}</td>
+					</tr>
+					<tr>
+						<td>{{finalFilter.datos.par}}</td>
+						<td>{{finalFilter.datos.partidos}}</td>
+					</tr>
+					<tr>
+						<td>{{finalFilter.datos.gol}}</td>
+						<td>{{finalFilter.datos.goles}}</td>
+					</tr>
+				</tbody>
+			</table>
+
 		</div>
 	</div>
 </body>
