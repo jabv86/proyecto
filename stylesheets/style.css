@@ -1,3 +1,18 @@
+@font-face {
+  font-family: fontTitle;
+  src: url(./../fonts/IsarCAT.ttf); }
+@font-face {
+  font-family: fontRMCF;
+  src: url(./../fonts/LakeshoreDriveNF.ttf); }
+@font-face {
+  font-family: fontCounter;
+  src: url(./../fonts/BonebasticDemo.otf); }
+@font-face {
+  font-family: fontStadi;
+  src: url(./../fonts/ConeriaScript.ttf); }
+.titulo {
+  font-family: fontTitle !important; }
+
 body {
   text-align: center;
   background: url("./../images/trono.jpg") no-repeat fixed;
@@ -8,6 +23,9 @@ body {
 
 .biba, .caja {
   color: #fff;
+  font-family: fontStadi;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-border-radius: 100px 100px 100px 100px;
   background-color: #47008f;
   margin: 1% 38%; }
 
@@ -23,15 +41,28 @@ body {
   margin: 0% 44%;
   padding: 2%; }
 
+.arbitro {
+  color: #b9b60e;
+  -webkit-border-radius: 64px 64px 64px 64px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  background-color: #000;
+  font-family: fontStadi; }
+
 .nmcf {
   color: #fff;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-border-radius: 100px 100px 100px 100px;
   background-color: #47008f;
-  margin: 4% -4%; }
+  margin: 4% -4%;
+  font-family: fontRMCF; }
 
 .ncounter {
   color: #fff;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-border-radius: 100px 100px 100px 100px;
   background-color: #700000;
-  margin: 4% -4%; }
+  margin: 4% -4%;
+  font-family: fontCounter; }
 
 .equipo1, .equipo2 {
   width: 280px;
@@ -51,17 +82,29 @@ body {
 
 .entrenadorMCF {
   color: #fff;
+  -webkit-border-radius: 0px 100px 100px 100px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   background-color: #47008f; }
 
 .entrenadorC {
   color: #fff;
+  -webkit-border-radius: 100px 0px 100px 100px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   background-color: #700000; }
 
 .maxgol {
   color: #fff;
   -webkit-border-radius: 200px 200px 200px 200px !important;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   z-index: 1 !important;
-  background-color: #827864; }
+  background-color: #827864;
+  font-family: fontStadi; }
+
+.estadistica {
+  color: gold;
+  font-family: fontStadi;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  background-color: #47008f; }
 
 .ancho {
   width: 20%; }
