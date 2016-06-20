@@ -1,7 +1,7 @@
 [
 	{
 		"copa": "Primera",
-		"imagen":"./images/finales/primera.jpg",
+		"imagen":"./images/finales/resized/photos/primera.jpg",
 		"entrena":"Entrenador: ",
 		"capi":"Capitán: ",
 		"equipos": [{
@@ -65,6 +65,13 @@
 			"participantes":"16",
 			"partidos":"29",
 			"goles":"127",
+			"maxg":"Máximo goleador",
+			"estadis":"Estadísticas",
+			"participa":"Participantes: ",
+			"par":"Partidos: ",
+			"gol":"Goles: ",
+			"arbi":"Arbitro: ",
+
 			"maxgoleador":{
 				"nombre":"Milos Milutinovic",
 				"equipo":"F.K.Partizan",
@@ -77,7 +84,8 @@
 	},
 	{
 		"copa": "Segunda",
-		"imagen":"./images/finales/segunda.jpg",
+		"imagen":"./images/finales/resized/photos/segunda.jpg",
+		"video":"./videos/primera.mp4",
 		"entrena":"Entrenador: ",
 		"capi":"Capitán: ",
 		"equipos": [{
@@ -141,6 +149,12 @@
 			"participantes":"16",
 			"partidos":"44",
 			"goles":"170",
+			"maxg":"Máximo goleador",
+			"estadis":"Estadísticas",
+			"participa":"Participantes: ",
+			"par":"Partidos: ",
+			"gol":"Goles: ",
+			"arbi":"Arbitro: ",
 			"maxgoleador":{
 				"nombre":"Alfredo Di Stéfano",
 				"equipo":"Real Madrid C. de F.",
@@ -153,7 +167,7 @@
 	},
 	{
 		"copa": "Tercera",
-		"imagen":"./images/finales/tercera.jpg",
+		"imagen":"./images/finales/resized/photos/tercera.jpg",
 		"entrena":"Entrenador: ",
 		"capi":"Capitán: ",
 		"equipos": [{
@@ -217,6 +231,12 @@
 			"participantes":"24",
 			"partidos":"48",
 			"goles":"189",
+			"maxg":"Máximo goleador",
+			"estadis":"Estadísticas",
+			"participa":"Participantes: ",
+			"par":"Partidos: ",
+			"gol":"Goles: ",
+			"arbi":"Arbitro: ",
 			"maxgoleador":{
 				"nombre":"Alfredo Di Stéfano",
 				"equipo":"Real Madrid C. de F.",
@@ -229,7 +249,7 @@
 	},
 	{
 		"copa": "Cuarta",
-		"imagen":"./images/finales/cuarta.jpg",
+		"imagen":"./images/finales/resized/photos/cuarta.jpg",
 		"entrena":"Entrenador: ",
 		"capi":"Capitán: ",
 		"equipos": [{
@@ -293,6 +313,12 @@
 			"participantes":"26",
 			"partidos":"55",
 			"goles":"200",
+			"maxg":"Máximo goleador",
+			"estadis":"Estadísticas",
+			"participa":"Participantes: ",
+			"par":"Partidos: ",
+			"gol":"Goles: ",
+			"arbi":"Arbitro: ",
 			"maxgoleador":{
 				"nombre":"Just Fontaine",
 				"equipo":"Stade de Reims",
@@ -307,7 +333,7 @@
 		"copa": "Quinta",
 		"entrena":"Entrenador: ",
 		"capi":"Capitán: ",
-		"imagen":"./images/finales/quinta.jpg",
+		"imagen":"./images/finales/resized/photos/quinta.jpg",
 		"equipos": [{
 			"equipo":"Real Madrid C. de F.",
 			"goles":"7",
@@ -369,6 +395,12 @@
 			"participantes":"27",
 			"partidos":"52",
 			"goles":"218",
+			"maxg":"Máximo goleador",
+			"estadis":"Estadísticas",
+			"participa":"Participantes: ",
+			"par":"Partidos: ",
+			"gol":"Goles: ",
+			"arbi":"Arbitro: ",
 			"maxgoleador":{
 				"nombre":"Ferenc Puskas",
 				"equipo":"Real Madrid C. de F.",
@@ -381,7 +413,7 @@
 	},
 	{
 		"copa": "Sexta",
-		"imagen":"./images/finales/sexta.jpg",
+		"imagen":"./images/finales/resized/photos/sexta.jpg",
 		"entrena":"Entrenador: ",
 		"capi":"Capitán: ",
 		"equipos": [{
@@ -445,6 +477,12 @@
 			"participantes":"32",
 			"partidos":"58",
 			"goles":"224",
+			"maxg":"Máximo goleador",
+			"estadis":"Estadísticas",
+			"participa":"Participantes: ",
+			"par":"Partidos: ",
+			"gol":"Goles: ",
+			"arbi":"Arbitro: ",
 			"maxgoleador":{
 				"nombre":"Florián Albert",
 				"equipo":"Ferencvaros",
@@ -458,7 +496,7 @@
 
 			{
 		"copa": "Séptima",
-		"imagen":"./images/finales/septima.jpg",
+		"imagen":"./images/finales/resized/photos/septima.jpg",
 		"entrena":"Entrenador: ",
 		"capi":"Capitán: ",
 		"equipos": [{
@@ -522,6 +560,12 @@
 			"participantes":"24",
 			"partidos":"85",
 			"goles":"239",
+			"maxg":"Máximo goleador",
+			"estadis":"Estadísticas",
+			"participa":"Participantes: ",
+			"par":"Partidos: ",
+			"gol":"Goles: ",
+			"arbi":"Arbitro: ",
 			"maxgoleador":{
 				"nombre":"Del Piero",
 				"equipo":"Juventus",
@@ -534,7 +578,7 @@
 	},
 		{
 		"copa": "Octava",
-		"imagen":"./images/finales/octava.jpg",
+		"imagen":"./images/finales/resized/photos/octava.jpg",
 		"entrena":"Entrenador: ",
 		"capi":"Capitán: ",
 		"equipos": [{
@@ -598,6 +642,12 @@
 			"participantes":"32",
 			"partidos":"157",
 			"goles":"495",
+			"maxg":"Máximo goleador",
+			"estadis":"Estadísticas",
+			"participa":"Participantes: ",
+			"par":"Partidos: ",
+			"gol":"Goles: ",
+			"arbi":"Arbitro: ",
 			"maxgoleador":{
 				"nombre":"Raúl",
 				"equipo":"Real Madrid C. de F.",
@@ -610,7 +660,7 @@
 	},
 			{
 		"copa": "Novena",
-		"imagen":"./images/finales/novena.jpg",
+		"imagen":"./images/finales/resized/photos/novena.jpg",
 		"entrena":"Entrenador: ",
 		"capi":"Capitán: ",
 		"equipos": [{
@@ -674,6 +724,12 @@
 			"participantes":"32",
 			"partidos":"157",
 			"goles":"393",
+			"maxg":"Máximo goleador",
+			"estadis":"Estadísticas",
+			"participa":"Participantes: ",
+			"par":"Partidos: ",
+			"gol":"Goles: ",
+			"arbi":"Arbitro: ",
 			"maxgoleador":{
 				"nombre":"Ruud Van Nistelrooy",
 				"equipo":"Manchester United",
@@ -686,7 +742,7 @@
 	},
 	{
 		"copa": "Décima",
-		"imagen":"./images/finales/decima.jpg",
+		"imagen":"./images/finales/resized/photos/decima.jpg",
 		"entrena":"Entrenador: ",
 		"capi":"Capitán: ",
 		"equipos": [{
@@ -750,6 +806,12 @@
 			"participantes":"32",
 			"partidos":"157",
 			"goles":"361",
+			"maxg":"Máximo goleador",
+			"estadis":"Estadísticas",
+			"participa":"Participantes: ",
+			"par":"Partidos: ",
+			"gol":"Goles: ",
+			"arbi":"Arbitro: ",
 			"maxgoleador":{
 				"nombre":"Cristiano Ronaldo",
 				"equipo":"Real Madrid C. de F.",
@@ -762,7 +824,7 @@
 	},
 	{
 		"copa": "Undécima",
-		"imagen":"./images/finales/undecima.jpg",
+		"imagen":"./images/finales/resized/photos/undecima.jpg",
 		"entrena":"Entrenador: ",
 		"capi":"Capitán: ",
 		"equipos": [{
@@ -826,6 +888,12 @@
 			"participantes":"32",
 			"partidos":"124",
 			"goles":"345",
+			"maxg":"Máximo goleador",
+			"estadis":"Estadísticas",
+			"participa":"Participantes: ",
+			"par":"Partidos: ",
+			"gol":"Goles: ",
+			"arbi":"Arbitro: ",
 			"maxgoleador":{
 				"nombre":"Cristiano Ronaldo",
 				"equipo":"Real Madrid C. de F.",
